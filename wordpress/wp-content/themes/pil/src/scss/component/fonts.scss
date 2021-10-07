@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'II Vorkurs';
+    src: url('./IIVorkursLight.woff2') format('woff2'),
+        url('./IIVorkursLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'II Vorkurs';
+    src: url('./IIVorkursMedium.woff2') format('woff2'),
+        url('./IIVorkursMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'II Vorkurs';
+    src: url('./IIVorkursBold.woff2') format('woff2'),
+        url('./IIVorkursBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    font-family: 'II Vorkurs';
+}
+p {
+    font-family: 'II Vorkurs';
+    
+}
+
+//font-size
+$h1-desktop: 90px;
+$h2-desktop: 50px;
+$h3-desktop: 34px;
+$h4-desktop: 24px;
+$big-p-desktop: 20px;
+$little-p-desktop: 18px;
+
+//attribution au balise
+h1{
+    font-size: $h1-desktop;
+}
+h2{
+    font-size: $h2-desktop;
+}
+h3{
+    font-size: $h3-desktop;
+}
+h4{
+    font-size: $h4-desktop;
+}
