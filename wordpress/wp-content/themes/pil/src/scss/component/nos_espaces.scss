@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.nos_espaces{
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+.texte-esp{
+    p{
+        font-size: $big-p-desktop;
+        width: 450px;
+    }
+}
+.titre_esp_esp{
+    margin: 0;
+}
+.bouton_esp_esp{
+    font-size: $little-p-desktop;
+}
