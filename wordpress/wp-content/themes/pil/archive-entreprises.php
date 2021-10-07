@@ -83,3 +83,9 @@ get_header();
                 <? endwhile; endif;?>
 
 </div>
+
+<?php 
+
+get_footer();
+
+?>
