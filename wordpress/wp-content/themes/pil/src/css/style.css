@@ -945,6 +945,11 @@ h6 {
     color: #FFFFFF;
   }
 
+  #menu-contact li a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
   * {
     box-sizing: border-box;
     margin: 0;
@@ -1018,6 +1023,12 @@ h6 {
     color: white;
     border: 2px solid white;
     border-radius: 15px;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
   }
 
   .form-check {
@@ -1052,6 +1063,10 @@ h6 {
     color: white;
     margin: 30px;
     padding-bottom: 50px;
+  }
+
+  #contact-link {
+    margin-top: 10rem;
   }
 }
 
