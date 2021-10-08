@@ -1,22 +1,36 @@
-*{
-    margin: 0;
-    border: 0;
-    padding: 0;
-}
 .nos_espaces{
     display: flex;
     justify-content: center;
     flex-flow: row nowrap;
+    margin: 200px 0;
+}
+.presentation-esp{
+    margin-right: 100px;
 }
 .texte-esp{
+    margin-top: -15px;
+    margin-left: 100px;
     p{
         font-size: $big-p-desktop;
         width: 450px;
+        margin-bottom: 50px;
     }
 }
 .titre_esp_esp{
     margin: 0;
+    margin-bottom: 20px;
 }
 .bouton_esp_esp{
     font-size: $little-p-desktop;
+    text-decoration: none;
+    color: $black;
+    border: 1px solid $black;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    transition: 0.5s;
+}
+.bouton_esp_esp:hover{
+    color: $white;
+    background-color: $black;
+    transition: 0.5s;
 }
