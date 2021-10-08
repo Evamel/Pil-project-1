@@ -495,9 +495,34 @@ li::before {
 }
 
 .jsp {
-  width: 400px;
-  height: 500px;
-  background-color: #707070;
+  margin-right: 4rem;
+  height: 400px;
+  font-size: 25px;
+}
+.jsp ul {
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  color: orange;
+}
+.jsp ul a {
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  width: 216px;
+  height: 330px;
+  background-color: #212121;
+  text-decoration: none;
+  color: white;
+  padding: 2rem;
+}
+.jsp p {
+  width: 216px;
+  height: 330px;
+  background-color: #212121;
+  text-decoration: none;
+  color: white;
+  padding: 2rem;
 }
 
 * {
@@ -810,6 +835,7 @@ html {
 .searchform {
   display: flex;
   justify-content: center;
+  margin: auto;
   background-color: #1C1C1C;
   width: 35rem;
   height: 5rem;
@@ -1037,7 +1063,7 @@ h6 {
     display: flex;
     justify-content: baseline;
     flex-direction: column;
-    position: absolute;
+    position: sticky;
     bottom: 30px;
     mix-blend-mode: difference;
   }

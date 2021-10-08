@@ -21,7 +21,32 @@
     margin: 30px 0;
 }
 .jsp{
-    width: 400px;
-    height: 500px;
-    background-color: $grey;
+    margin-right: 4rem;
+    height: 400px;
+    font-size: 25px;
+    ul{
+        display: flex;
+        justify-content: left;
+        align-items: end;
+        color: orange;
+        a{
+            display: flex;
+            justify-content: left;
+            align-items: end;
+            width: 216px;
+            height: 330px;
+            background-color: #212121;
+            text-decoration: none;
+            color: white;
+            padding: 2rem;
+        }
+    }
+    p{
+            width: 216px;
+            height: 330px;
+            background-color: #212121;
+            text-decoration: none;
+            color: white;
+            padding: 2rem;
+    }
 }
