@@ -1,0 +1,33 @@
+.outils-prod{
+    background-color: $light-black;
+    padding: 500px 0 200px;
+}
+.texte-prod{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.titre_op_esp{
+    color: $white;
+    margin: 0;
+    width: 600px;
+    margin-right: 100px;
+}
+.introduction_op_esp{
+    color: $white;
+    font-size: $big-p-desktop;
+    width: 420px;
+    margin-left: 100px;
+    line-height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+.img-prod{
+    display: flex;
+    justify-content: center;
+}
+.image_op_esp{
+    width: 70vw;
+    height: auto;
+    margin: 150px 0;
+}

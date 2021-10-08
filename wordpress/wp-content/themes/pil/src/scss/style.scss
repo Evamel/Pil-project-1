@@ -1,5 +1,6 @@
 //import reset
 @import 'component/reset.scss';
+@import 'component/rezet.scss';
 
 //import color 
 @import "component/color.scss";
@@ -21,6 +22,12 @@
 @import "component/team-pole.scss";
 @import "component/actualite-pole.scss";
 @import "component/footer-pole.scss";
+
+//import scss espaces
+@import "component/banner-esp.scss";
+@import "component/nos_espaces.scss";
+@import "component/outils-prod.scss";
+@import "component/footer-esp.scss";
 
 //import bannière défilante
 @import "component/banniere_defilante.scss";
