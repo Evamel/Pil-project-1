@@ -68,7 +68,7 @@ get_header();
                                         <? }?>
                                 </div>
                                 <div class="secteur__button">
-                                        <button><img src="http://localhost/wordpress/wp-content/src/img/svg/arrow-down.svg" alt="down_btn"></button>
+                                        <button style ="background: #171717"></style><img class="img-down-arrow" src="http://localhost/wp-content/uploads/2021/10/arrow-down.svg" alt="down_btn"></button>
                                 </div>
                         </div>
                         <div class="secteur__panel">
