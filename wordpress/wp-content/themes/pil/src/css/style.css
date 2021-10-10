@@ -917,6 +917,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background: #171717;
+}
+
 .searchform {
   display: flex;
   justify-content: center;
@@ -984,6 +988,10 @@ h6 {
 .form-check input {
   margin: 1.2rem 0.5rem;
   vertical-align: sub;
+}
+
+button {
+  background: black;
 }
 
 @media (min-width: 700px) {
