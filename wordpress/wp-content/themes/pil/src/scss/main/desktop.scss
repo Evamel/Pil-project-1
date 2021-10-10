@@ -55,14 +55,27 @@
   #contact-adress{
       font-size: 2rem;
       margin-top: 10rem;
+
   
   }
+
   #contact a{
       text-decoration: none;
       color: white;
       border: 2px solid white;
       border-radius: 15px;
+      margin-top: 10rem; 
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
   
+  }
+  #contact-link{
+   
+
+
   }
   .form-check{
     color : white
