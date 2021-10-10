@@ -102,7 +102,29 @@ get_header();
     <div class="texte-secteur">
         <h1 class="titre_sect_home"><?php the_field('titre_sect_home') ?></h1>
         <h4 class="texte_sect_home"><?php the_field('texte_sect_home') ?></h4>
-        <div class="jsp"></div>
+
+
+
+        
+    <div class="jsp">
+    <?php 
+       
+    $args = [
+	'style'              => 'none',
+	'show_count'         => 1,
+	'hide_empty'         => 0,
+    'depth'              => 1,
+];
+    echo '<ul>';
+	wp_list_categories( $args );
+    echo '</ul>'?>
+
+    <p>Voir toutes les entreprises</p>
+    </div>
+    
+    
+    
+    
     </div>
 </div>
 <div class="formations-home">

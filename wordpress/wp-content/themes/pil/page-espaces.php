@@ -24,7 +24,21 @@ get_header();
         <?php endif; ?>
     </div>
 </div>
+<div class="outils-prod">
+    <div class="texte-prod">
+        <h1 class="titre_op_esp"><?php the_field('titre_op_esp') ?></h1>
+        <p class="introduction_op_esp"><?php the_field('introduction_op_esp') ?></p>
+    </div>
+    <div class="img-prod">
+        <?php if( get_field('image_op_esp') ): ?>
+            <img class="image_op_esp" src="<?php the_field('image_op_esp'); ?>" />
+        <?php endif; ?>
+    </div>
+</div>
 
+<div class="footer-esp">
+    <?php get_template_part('banniere-cta')?>
+</div>
 
 
 
